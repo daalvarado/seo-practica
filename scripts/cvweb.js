@@ -11,7 +11,7 @@ $('a[href*="#"]')
           1000,
         )
             }
-          
+
         );
       ;
 
@@ -48,7 +48,7 @@ var form = document.getElementsByName("formulario")[0];
 //validacion formulario
 
 form.addEventListener("submit", function(event) {
- 
+
   clearLimites();
 
     if (firstName.value.length <3) {
@@ -101,7 +101,7 @@ form.addEventListener("submit", function(event) {
     event.preventDefault();
     return false;
   }
-  
+
   let s=mensaje.value;
   s=s.trim();
   s = s.replace(/\s{2,}/g," ");
